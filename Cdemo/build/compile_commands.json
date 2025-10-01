@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/mononoaware/Documents/University Notes/OOP/Cdemo/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk -o CMakeFiles/cdemo.dir/main.cpp.o -c \"/Users/mononoaware/Documents/University Notes/OOP/Cdemo/main.cpp\"",
+  "file": "/Users/mononoaware/Documents/University Notes/OOP/Cdemo/main.cpp",
+  "output": "CMakeFiles/cdemo.dir/main.cpp.o"
+}
+]
