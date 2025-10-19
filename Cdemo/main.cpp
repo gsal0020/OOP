@@ -31,7 +31,7 @@ public:
     std::string setField1(std::string field1) {
         this->field1 = field1;
     }
-};
+
 
 int main(int, char**){
     Myclass obj1; //stack
