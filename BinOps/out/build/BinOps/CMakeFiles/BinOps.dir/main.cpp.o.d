@@ -780,4 +780,9 @@ CMakeFiles/BinOps.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/unistd.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/sstream
+  /Users/mononoaware/Documents/University\ Notes/OOP/BinOps/Binops_ClassV/Binops.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/fstream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/filesystem

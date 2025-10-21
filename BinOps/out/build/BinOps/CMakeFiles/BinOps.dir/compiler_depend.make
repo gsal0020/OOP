@@ -227,6 +227,7 @@ CMakeFiles/BinOps.dir/main.cpp.o: /Users/mononoaware/Documents/University\ Notes
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__exception/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__exception/terminate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__format/enable_insertable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__functional/binary_negate.h \
@@ -592,9 +593,12 @@ CMakeFiles/BinOps.dir/main.cpp.o: /Users/mononoaware/Documents/University\ Notes
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/execution \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iostream \
@@ -782,7 +786,8 @@ CMakeFiles/BinOps.dir/main.cpp.o: /Users/mononoaware/Documents/University\ Notes
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
+  /Users/mononoaware/Documents/University\ Notes/OOP/BinOps/Binops_ClassV/Binops.h
 
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h:
@@ -950,6 +955,8 @@ CMakeFiles/BinOps.dir/main.cpp.o: /Users/mononoaware/Documents/University\ Notes
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iosfwd:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/initializer_list:
+
+/Users/mononoaware/Documents/University\ Notes/OOP/BinOps/Binops_ClassV/Binops.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/functional:
 
@@ -1201,6 +1208,10 @@ CMakeFiles/BinOps.dir/main.cpp.o: /Users/mononoaware/Documents/University\ Notes
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__thread/id.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iomanip:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/filesystem:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__utility/pair.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__system_error/throw_system_error.h:
@@ -1404,6 +1415,8 @@ CMakeFiles/BinOps.dir/main.cpp.o: /Users/mononoaware/Documents/University\ Notes
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/stddef.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/segmented_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/path.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__math/traits.h:
 
@@ -1780,6 +1793,8 @@ CMakeFiles/BinOps.dir/main.cpp.o: /Users/mononoaware/Documents/University\ Notes
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/typeinfo:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/empty.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/fstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
 
