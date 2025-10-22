@@ -81,11 +81,9 @@ bool parse_expression(const string& exp, Binops* binops) {
     double opnd1 = 0.0, opnd2 = 0.0;
     char op = '\0';
 
-    // parse into local variables (operator>> needs lvalues)
     if (!(iss >> open_par >> opnd1 >> op >> opnd2 >> close_par)) return false;
     if (open_par != '(' || close_par != ')') return false;
 
-    // members are private — use setters
     binops->set_opnd1(opnd1);
     binops->set_op(op);
     binops->set_opnd2(opnd2);
