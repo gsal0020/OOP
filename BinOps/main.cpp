@@ -13,7 +13,7 @@ using namespace std;
 //     char op;
 //     double opnd2;
 // };
-
+bool validate_operator(char oop);
 bool parse_expression(const string& exp, Binops* binops);
 double perform_operation(const Binops* binops);
 void print_to_txt(const Binops* expressions, int count);
@@ -82,6 +82,10 @@ bool parse_expression(const string& exp, Binops* binops) {
     char op = '\0';
 
     if (!(iss >> open_par >> opnd1 >> op >> opnd2 >> close_par)) return false;
+    if (validate_operator(op) == false){
+        cerr << "Invalid operator: " << op << '\n';
+    }
+    
     if (open_par != '(' || close_par != ')') return false;
 
     binops->set_opnd1(opnd1);
@@ -147,5 +151,11 @@ void print_to_txt(const Binops* expressions, int count) {
         cout << "Results written to operations.txt\n";
     } catch (const exception& e) {
         cerr << "Error: " << e.what() << endl;
+    }
+}
+
+bool validate_operator(char op){
+    if (!(op == '+' || op == '-' || op == '*' || op == '/')){
+        return false;
     }
 }

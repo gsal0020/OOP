@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20251022-1433-Experimental"
+	Name="SegFault.local"
+	Generator="ctest-3.31.3"
+	CompilerName="/usr/bin/clang++"
+	CompilerVersion="17.0.0.17000319"
+	OSName="macOS"
+	Hostname="SegFault.local"
+	OSRelease="26.0"
+	OSVersion="25A354"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M3"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="7168"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Oct 22 16:33 CEST</StartDateTime>
+		<StartTestTime>1761143591</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 22 16:33 CEST</EndDateTime>
+		<EndTestTime>1761143591</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
