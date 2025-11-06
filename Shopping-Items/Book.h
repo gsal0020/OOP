@@ -8,6 +8,8 @@ private:
     string author;
     string publisher;
 public:
+    // default constructor
+    Book() : ShoppingItem(), author(""), publisher("") {}
     // Constructor
     Book(const string& itemName, double itemPrice, int itemQuantity, const string&
             bookAuthor, const string& bookPublisher) {

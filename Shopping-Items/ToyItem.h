@@ -6,6 +6,8 @@ class ToyItem:public ShoppingItem {
 private:
     string ageGroup; // e.g., 3-5 years, 6-8
 public:
+    // default constructor
+    ToyItem() : ShoppingItem(), ageGroup("") {}
     // Constructor
     ToyItem(const string& itemName, double itemPrice, int itemQuantity, const string& toyAgeGroup) {
         //set values using setter methods from base class

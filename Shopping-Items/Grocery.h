@@ -7,6 +7,8 @@ class Grocery: public ShoppingItem {
     private:
     string type; // e.g., vegetable, fruit, dairy
 public:
+    // default constructor
+    Grocery() : ShoppingItem(), type("") {}
     // Constructor
     Grocery(const string& itemName, double itemPrice, int itemQuantity, const string& groceryType) {
         //set values using setter methods from base class

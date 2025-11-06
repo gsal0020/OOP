@@ -6,6 +6,9 @@ class Electronics : public ShoppingItem {
 private:
     int componentSerialNumber;
 public:
+    //default constructor
+    Electronics() : ShoppingItem(), componentSerialNumber(0) {}
+    
     // Constructor
     Electronics(const string& itemName, double itemPrice, int itemQuantity, int serialNumber) {
         //set values using setter methods from base class
