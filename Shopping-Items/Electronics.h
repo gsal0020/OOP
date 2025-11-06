@@ -25,6 +25,18 @@ public:
     int getComponentSerialNumber() const {
         return componentSerialNumber;
     }
+    void persist(ofstream& ofs) override {
+        ofs << "ELECTRONICS|" << getName() << "|" << getPrice() << "|" 
+            << getQuantity() << "|" << componentSerialNumber << endl;
+    }
+    void load(istringstream& iss) override {
+        string token;
+        getline(iss, token, '|'); // Type
+        getline(iss, token, '|'); setName(token);
+        getline(iss, token, '|'); setPrice(stod(token));
+        getline(iss, token, '|'); setQuantity(stoi(token));
+        getline(iss, token); setComponentSerialNumber(stoi(token));
+    }
 };
 
 #endif

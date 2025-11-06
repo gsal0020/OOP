@@ -1,5 +1,6 @@
 #ifndef BOOK_H
 #define BOOK_H
+#include <sstream>
 #include "Shopping-items.h"
 using namespace std;
 class Book: public ShoppingItem {
@@ -35,5 +36,20 @@ public:
         displayItem(); // Call base class method to display item details
         cout << "Author: " << author << ", Publisher: " << publisher << endl;
     }
+    void persist(ofstream& ofs) override {
+        ofs << "BOOK|" << getName() << "|" << getPrice() << "|" 
+            << getQuantity() << "|" << author << "|" << publisher << std::endl;
+    }
+
+    void load(istringstream& iss) override {
+        string token;
+        getline(iss, token, '|'); // Type
+        getline(iss, token, '|'); setName(token);
+        getline(iss, token, '|'); setPrice(std::stod(token));
+        getline(iss, token, '|'); setQuantity(std::stoi(token));
+        getline(iss, token, '|'); setAuthor(token);
+        getline(iss, token); setPublisher(token);
+    }
+
 };
 #endif

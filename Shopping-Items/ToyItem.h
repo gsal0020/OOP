@@ -26,6 +26,19 @@ public:
         displayItem(); // Call base class method to display item details
         cout << "Age Group: " << ageGroup << endl;
     }
+    void persist(ofstream& ofs) override {
+        ofs << "TOYITEM|" << getName() << "|" << getPrice() << "|" 
+            << getQuantity() << "|" << ageGroup << endl;
+    }
+    void load(istringstream& iss) override {
+        string token;
+        getline(iss, token, '|'); // Type
+        getline(iss, token, '|'); setName(token);
+        getline(iss, token, '|'); setPrice(stod(token));
+        getline(iss, token, '|'); setQuantity(stoi(token));
+        getline(iss, token); setAgeGroup(token);
+    }
+    
 
 };
 #endif

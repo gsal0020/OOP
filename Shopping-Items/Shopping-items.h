@@ -2,6 +2,8 @@
 #define SHOPPING_ITEMS_H
 #include <string>
 #include <iostream>
+#include <fstream>
+#include <sstream>
 using namespace std;
 class ShoppingItem {
 private:
@@ -9,6 +11,9 @@ private:
     double price;
     int quantity;
 public:
+    virtual ~ShoppingItem() = default; //calling destructor
+    virtual void persist(ofstream& ofs)=0; // pure virtual function for persistence
+    virtual void load(istringstream& iss )=0; // pure virtual function for loading
 // getters methods of abstract class
     string getName() const {
         return name;
@@ -36,6 +41,7 @@ public:
         double total = price * quantity;
         cout << "Total Cost for " << name << ": $" << total << endl;
     }
+
 
 
 

@@ -8,6 +8,7 @@ private:
     string size; // e.g., S, M, L, XL
     string material; // e.g., cotton, polyester
 public:
+Clothing() : ShoppingItem(), size(""), material("") {}
 // Constructor
     Clothing(const string& itemName, double itemPrice, int itemQuantity, const string& clothingSize, const string& clothingMaterial) {
         //set values using setter methods from base class
@@ -17,7 +18,7 @@ public:
         setSize(clothingSize);
         setMaterial(clothingMaterial);
     }
-void setSize(const string& clothingSize) {
+    void setSize(const string& clothingSize) {
         size = clothingSize;
     }
     string getSize() const {
@@ -34,6 +35,19 @@ void setSize(const string& clothingSize) {
         cout << "Clothing Item - ";
         displayItem(); // Call base class method to display item details
         cout << "Size: " << size << ", Material: " << material << endl;
+    }
+    void persist(ofstream& ofs) override {
+        ofs << "CLOTHING|" << getName() << "|" << getPrice() << "|" 
+            << getQuantity() << "|" << size << "|" << material << std::endl;
+    }
+    void load(istringstream& iss) override {
+        string token;
+        getline(iss, token, '|'); // Type
+        getline(iss, token, '|'); setName(token);
+        getline(iss, token, '|'); setPrice(std::stod(token));
+        getline(iss, token, '|'); setQuantity(std::stoi(token));
+        getline(iss, token, '|'); setSize(token);
+        getline(iss, token); setMaterial(token);
     }
 
 

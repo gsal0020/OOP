@@ -227,6 +227,7 @@ CMakeFiles/Shopping-Item.dir/main.cpp.o: /Users/mononoaware/Documents/University
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__exception/nested_exception.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__exception/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__exception/terminate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__format/enable_insertable.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__functional/binary_negate.h \
@@ -592,9 +593,12 @@ CMakeFiles/Shopping-Item.dir/main.cpp.o: /Users/mononoaware/Documents/University
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/execution \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/format \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iostream \
@@ -611,6 +615,7 @@ CMakeFiles/Shopping-Item.dir/main.cpp.o: /Users/mononoaware/Documents/University
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/stdexcept \
@@ -932,6 +937,8 @@ CMakeFiles/Shopping-Item.dir/main.cpp.o: /Users/mononoaware/Documents/University
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/stdlib.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/sstream:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/utility:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/print:
@@ -1210,6 +1217,10 @@ CMakeFiles/Shopping-Item.dir/main.cpp.o: /Users/mononoaware/Documents/University
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__thread/id.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/iomanip:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/filesystem:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__utility/pair.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__system_error/throw_system_error.h:
@@ -1413,6 +1424,8 @@ CMakeFiles/Shopping-Item.dir/main.cpp.o: /Users/mononoaware/Documents/University
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/stddef.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/segmented_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/path.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__math/traits.h:
 
@@ -1791,6 +1804,8 @@ CMakeFiles/Shopping-Item.dir/main.cpp.o: /Users/mononoaware/Documents/University
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/typeinfo:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/empty.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/fstream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__atomic/atomic_flag.h:
 
