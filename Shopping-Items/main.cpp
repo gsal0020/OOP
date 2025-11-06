@@ -50,19 +50,19 @@ int main(int, char**){
                     cout << "Loaded Clothing Item: " << clothing->getName() << endl;
                     ShoppingItems.push_back(std::move(clothing));
                 } else if (itemType == "ELECTRONICS") {
-                    auto electronics = std::make_unique<Electronics>(name, price, quantity, serialnumber);
+                    auto electronics = std::make_unique<Electronics>();
                     electronics->load(iss);
                     ShoppingItems.push_back(std::move(electronics));
                 } else if (itemType == "GROCERY") {
-                    auto grocery = std::make_unique<Grocery>(name, price, quantity, type);
+                    auto grocery = std::make_unique<Grocery>();
                     grocery->load(iss);
                     ShoppingItems.push_back(std::move(grocery));
                 } else if (itemType == "TOY") {
-                    auto toy = std::make_unique<ToyItem>(name, price, quantity, ageGroup);
+                    auto toy = std::make_unique<ToyItem>();
                     toy->load(iss);
                     ShoppingItems.push_back(std::move(toy));
                 } else if (itemType == "BOOK") {
-                    auto book = std::make_unique<Book>(name, price, quantity, author, publisher);
+                    auto book = std::make_unique<Book>();
                     book->load(iss);
                     ShoppingItems.push_back(std::move(book));
                 }
