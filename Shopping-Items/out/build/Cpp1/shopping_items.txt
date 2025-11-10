@@ -1,1 +1,2 @@
 CLOTHING|hoodie|105|1|M|PureCotton
+CLOTHING|Hoodie2|30|1|X|L

@@ -40,15 +40,15 @@ Clothing() : ShoppingItem(), size(""), material("") {}
         ofs << "CLOTHING|" << getName() << "|" << getPrice() << "|" 
             << getQuantity() << "|" << size << "|" << material << std::endl;
     }
-    void load(istringstream& iss) override {
-        string token;
-        getline(iss, token, '|'); // Type
-        getline(iss, token, '|'); setName(token);
-        getline(iss, token, '|'); setPrice(std::stod(token));
-        getline(iss, token, '|'); setQuantity(std::stoi(token));
-        getline(iss, token, '|'); setSize(token);
-        getline(iss, token); setMaterial(token);
-    }
+void load(istringstream& iss) override {
+    string token;
+    getline(iss, token, '|'); setName(token);
+    getline(iss, token, '|'); setPrice(std::stod(token));
+    getline(iss, token, '|'); setQuantity(std::stoi(token));
+    getline(iss, token, '|'); setSize(token);
+    getline(iss, token); setMaterial(token);
+}
+
 
 
 };

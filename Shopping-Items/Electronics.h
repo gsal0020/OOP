@@ -8,7 +8,7 @@ private:
 public:
     //default constructor
     Electronics() : ShoppingItem(), componentSerialNumber(0) {}
-    
+
     // Constructor
     Electronics(const string& itemName, double itemPrice, int itemQuantity, int serialNumber) {
         //set values using setter methods from base class
@@ -34,7 +34,6 @@ public:
     }
     void load(istringstream& iss) override {
         string token;
-        getline(iss, token, '|'); // Type
         getline(iss, token, '|'); setName(token);
         getline(iss, token, '|'); setPrice(stod(token));
         getline(iss, token, '|'); setQuantity(stoi(token));

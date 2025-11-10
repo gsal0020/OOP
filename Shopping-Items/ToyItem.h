@@ -34,7 +34,6 @@ public:
     }
     void load(istringstream& iss) override {
         string token;
-        getline(iss, token, '|'); // Type
         getline(iss, token, '|'); setName(token);
         getline(iss, token, '|'); setPrice(stod(token));
         getline(iss, token, '|'); setQuantity(stoi(token));

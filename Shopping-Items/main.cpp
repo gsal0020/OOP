@@ -38,6 +38,7 @@ int main(int, char**){
         } else {
             string line;
             while (getline(ifs, line)) {
+            cout << "Reading line: " << line << endl; 
                 if (line.empty()) continue;
                 
                 istringstream iss(line);
